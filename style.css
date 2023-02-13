@@ -1,0 +1,65 @@
+body {
+    text-align: center;
+    background-image: url(https://i.stack.imgur.com/jGlzr.png);
+}   
+
+h2{
+    color: white;
+    font-size: 40px;
+    text-shadow: 0px 10px 10px #fb923c;
+    margin-top: 75px;
+}
+h2:hover{
+    text-shadow: 0px 10px 10px #ffedd5;
+    transition: text-shadow 0.3s ease-in-out;
+}
+
+table{
+    background-color: #ffedd5;
+    margin-top: 60px;
+}
+
+input{
+    font-size: large;
+    text-align: center;
+    width: 200px;
+    height: 50px;
+}
+
+#tombol{
+    height: 60px;
+}
+
+button{
+    font-size: large;
+    width: 50px;
+    height: 40px;
+}
+
+button:hover{
+    color: white;
+    background-color: black;
+    transition: background-color 0.1s ease-in-out;
+}
+
+.angka{
+    border-style: dashed;
+    height: 50px;
+}
+
+#hasil {
+    font-size: 30px;
+    height: 75px;
+    color: white;
+    background-color: #fb923c;
+}
+
+footer{
+    bottom: 0;
+    right: 0;
+    background-color: #fb923c;
+    height: auto;
+    width: 100%;
+    color: white;
+    position: absolute;
+}

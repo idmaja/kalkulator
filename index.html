@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <script src="javascript.js"></script>
+</head>
+<body style="font-family: Poppins;">
+    <h2>KALKULATOR</h2>
+    <table border="1" width="600px" height="300px" align="center">
+        <tr>
+            <td class="angka">Angka 1</td>
+            <td class="angka">Angka 2</td>
+        </tr>
+        <tr>
+            <td><input type="number" id="angka1"></td>
+            <td><input type="number" id="angka2"></td>
+        </tr>
+        <tr id="tombol">
+            <td colspan="2">
+                <button onclick="tambah()">+</button>
+                <button onclick="kurang()">-</button>
+                <button onclick="kali()">x</button>
+                <button onclick="bagi()">:</button>
+                <button onclick="modulo()">%</button>
+            </td>
+        </tr>
+        <tr id="hasil_utama">
+            <td colspan="2" id="hasil">HASIL</td>
+        </tr>
+    </table>
+    <footer>
+        <div>
+            <h3>FOOTER</h3>
+            <p>© All right reserved <br> Irvan Dhimas M / 672021186</p>
+        </div>
+    </footer>
+</body>
+</html>
